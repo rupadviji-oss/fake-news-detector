@@ -6,7 +6,7 @@ import shap
 from lime.lime_text import LimeTextExplainer
 
 # Load dataset
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data/data.csv")
 X = df["text"]
 y = df["subject"]
 
