@@ -8,7 +8,7 @@ import shap
 from lime.lime_text import LimeTextExplainer
 
 # 1. Load dataset
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data/data.csv")
 
 print("Columns in dataset:", df.columns)
 
